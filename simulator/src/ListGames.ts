@@ -29,6 +29,7 @@ import {
 //import { type TerrainMapData } from "openfront-client/src/core/game/TerrainMapLoader.ts";
 import { GameRunner } from "openfront-client/src/core/GameRunner.ts";
 import {
+    Turn,
   type GameEndInfo,
   type GameRecord,
   type GameStartInfo,
@@ -89,9 +90,17 @@ async function load_map_data(
   };
 }
 
+type PlayerSpawn = {
+    turn: number;
+    x: number;
+    y: number;
+    previous_spawns: PlayerSpawn[];
+}
+
 type Analysis = {
   gameId: string;
   players: PlayerInfo[];
+  spawns: Record<string, PlayerSpawn>;
 };
 
 async function simgame(gameId: string, record: GameRecord, p: Pool) {
@@ -185,6 +194,14 @@ async function simgame(gameId: string, record: GameRecord, p: Pool) {
     `,
     [gameId],
   );
+    await p.query(
+        `
+        DELETE FROM analysis_1.spawn_locations WHERE game_id = $1;
+        `,
+        [gameId],
+    );
+
+
 
   console.log("Clear complete. Starting analysis.", gameId);
 
@@ -209,9 +226,16 @@ async function simgame(gameId: string, record: GameRecord, p: Pool) {
     },
   );
 
+  let analysis: Analysis = {
+    gameId: gameId,
+    players: humans,
+    spawns: {},
+  };
+
   // Simualte the game
   runner.init();
   for (let [i, turn] of record.turns.entries()) {
+    await analyze_intents(turn, p, record, analysis);
     runner.addTurn(turn);
     runner.executeNextTick();
     await new Promise((resolve) => setTimeout(resolve, 10));
@@ -225,6 +249,23 @@ async function simgame(gameId: string, record: GameRecord, p: Pool) {
   }
   console.log("Simulation complete. Finalizing analysis.");
 
+    for (let [client_id, spawn] of Object.entries(analysis.spawns)) {
+        await p.query(
+            `
+            INSERT INTO analysis_1.spawn_locations (game_id, client_id, tick, x, y, previous_spawns)
+            VALUES ($1, $2, $3, $4, $5, $6)
+            `,
+            [
+                gameId,
+                client_id,
+                spawn.turn,
+                spawn.x,
+                spawn.y,
+                JSON.stringify(spawn.previous_spawns),
+            ],
+        );
+    }
+
   await p.query(
     `
       INSERT INTO analysis_1.completed_analysis (game_id, analysis_engine_version)
@@ -236,10 +277,8 @@ async function simgame(gameId: string, record: GameRecord, p: Pool) {
     [gameId, "v1"],
   );
 
-  return {
-    gameId: gameId,
-    players: humans,
-  } satisfies Analysis;
+  console.log("Completed analysis for game", gameId);
+  return analysis;
 }
 
 let is_game_update = (
@@ -250,6 +289,30 @@ let is_game_update = (
   }
   return false;
 };
+
+async function analyze_intents(
+    turn: Turn,
+    p: Pool,
+    record: GameRecord,
+    analysis: Analysis,
+): Promise<void> {
+    for(let intent of turn.intents) {
+        if (intent.type === "spawn") {
+            let client_id = intent.clientID;
+            let x = intent.x;
+            let y = intent.y;
+
+            let prev_spawns = analysis.spawns[client_id]?.previous_spawns || [];
+
+            // Store the spawn location
+            analysis.spawns[client_id] = {
+                x, y,
+                turn: turn.turnNumber,
+                previous_spawns: prev_spawns,
+            };
+        }
+    }
+}
 
 /// Function to handle game updates. Returns true if the game is finished.
 async function handle_game_update(
@@ -444,11 +507,11 @@ async function handle_game_update(
       return game_is_won; // Game is finished
     }
   }
+  //console.log(gu.updates);
 
   return game_is_won;
 
   //TODO tile updateS?
-  //console.log(gu.updates);
   //let tus: [number, number][] = [];
   //for(let tu of gu.packedTileUpdates) {
   //let x = map_impl.x(tu);
@@ -547,7 +610,15 @@ try {
   console.log("Connected to database");
 
   let res = await p.query(
-    "SELECT fg.game_id, fg.result_json, lob.lobby_config_json FROM finished_games fg LEFT JOIN lobbies lob ON lob.game_id = fg.game_id LIMIT 10",
+    `
+    SELECT
+        fg.game_id, fg.result_json, 
+    FROM
+        finished_games fg
+        INNER JOIN analysis_queue aq
+    ON
+        aq.game_id = fg.game_id
+    LIMIT 10`,
   );
   console.log("Games: ", res.rows);
 
@@ -557,7 +628,8 @@ try {
     let record = decompressGameRecord(r);
 
     console.log("Game Winner: ", record.info.winner);
-    await simgame(game.game_id, record, p);
+    let analysis = await simgame(game.game_id, record, p);
+    console.log(analysis.spawns);
   }
 } catch (e) {
   console.error("Error: ", e);

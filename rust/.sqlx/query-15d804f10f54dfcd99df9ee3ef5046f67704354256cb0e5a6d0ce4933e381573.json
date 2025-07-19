@@ -1,12 +1,12 @@
 {
   "db_name": "PostgreSQL",
-  "query": "SELECT * FROM lobbies WHERE game_id = $1",
+  "query": "SELECT\n            lo.*,\n            (co.inserted_at_unix_sec IS NOT NULL) AS \"analysis_complete!\"\n        FROM\n            lobbies lo\n            LEFT JOIN analysis_1.completed_analysis co\n            ON lo.game_id = co.game_id\n        WHERE lo.game_id = $1",
   "describe": {
     "columns": [
       {
         "ordinal": 0,
         "name": "game_id",
-        "type_info": "Text"
+        "type_info": "Bpchar"
       },
       {
         "ordinal": 1,
@@ -47,24 +47,30 @@
         "ordinal": 8,
         "name": "lobby_config_json",
         "type_info": "Jsonb"
+      },
+      {
+        "ordinal": 9,
+        "name": "analysis_complete!",
+        "type_info": "Bool"
       }
     ],
     "parameters": {
       "Left": [
-        "Text"
+        "Bpchar"
       ]
     },
     "nullable": [
       false,
-      true,
       false,
       false,
       false,
       false,
       false,
       false,
-      false
+      false,
+      false,
+      null
     ]
   },
-  "hash": "dac40d5f80bcb32c137f5ef921730704f1c4e74d0dc628f22f1865def3b170a3"
+  "hash": "15d804f10f54dfcd99df9ee3ef5046f67704354256cb0e5a6d0ce4933e381573"
 }

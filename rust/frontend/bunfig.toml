@@ -1,0 +1,29 @@
+[install]
+# Automatically install node_modules dependencies
+auto = true
+
+# Use hardlinks for faster installs (when possible)
+link = "hardlink"
+
+# Lock file name (keep existing .lock for compatibility)
+lockfile = "bun.lock"
+
+# Install performance settings
+exact = false
+dryRun = false
+frozenLockfile = false
+
+# Configure registry settings  
+registry = "https://registry.npmjs.org"
+
+[build]
+# Configure build settings for Vite
+outDir = "dist"
+target = "es2022"
+format = "esm"
+sourcemap = true
+
+[dev]
+# Development server settings
+port = 3000
+open = true

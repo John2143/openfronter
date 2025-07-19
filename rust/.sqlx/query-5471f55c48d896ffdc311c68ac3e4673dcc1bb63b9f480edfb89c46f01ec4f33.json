@@ -1,0 +1,20 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT\n                game_id\n            FROM lobbies\n            WHERE\n                completed = false\n                AND last_seen_unix_sec < extract(epoch from (NOW() - INTERVAL '15 minutes'))\n                -- AND last_seen_unix_sec > extract(epoch from (NOW() - INTERVAL '2 hours'))\n            ",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "game_id",
+        "type_info": "Bpchar"
+      }
+    ],
+    "parameters": {
+      "Left": []
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "5471f55c48d896ffdc311c68ac3e4673dcc1bb63b9f480edfb89c46f01ec4f33"
+}

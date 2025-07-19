@@ -11,12 +11,11 @@
       in {
         devShell = pkgs.mkShell {
           buildInputs=[
-            pkgs.nodePackages.pnpm
             pkgs.nodePackages.typescript
             pkgs.nodePackages.typescript-language-server
             pkgs.nodePackages.eslint
             pkgs.nodePackages.prettier
-            pkgs.nodejs_24
+            pkgs.bun
           ];
         };
       }

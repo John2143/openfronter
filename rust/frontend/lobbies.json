@@ -1,0 +1,1002 @@
+[
+  {
+    "game_id": "y9mFMDV4",
+    "teams": 7,
+    "max_players": 42,
+    "game_map": "Falkland Islands",
+    "approx_num_players": 21,
+    "first_seen_unix_sec": 1752909192,
+    "last_seen_unix_sec": 1752909207,
+    "completed": false
+  },
+  {
+    "game_id": "kEvk1tpr",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Europe",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752909136,
+    "last_seen_unix_sec": 1752909189,
+    "completed": false
+  },
+  {
+    "game_id": "du7svBCJ",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "World",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752909106,
+    "last_seen_unix_sec": 1752909121,
+    "completed": false
+  },
+  {
+    "game_id": "2NKEz5zP",
+    "teams": 3,
+    "max_players": 60,
+    "game_map": "Asia",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752909060,
+    "last_seen_unix_sec": 1752909090,
+    "completed": false
+  },
+  {
+    "game_id": "rJN0MMWv",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Halkidiki",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752909021,
+    "last_seen_unix_sec": 1752909052,
+    "completed": false
+  },
+  {
+    "game_id": "WqVpUE1M",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Italia",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908989,
+    "last_seen_unix_sec": 1752909018,
+    "completed": false
+  },
+  {
+    "game_id": "DwzQPEsH",
+    "teams": 5,
+    "max_players": 100,
+    "game_map": "Africa",
+    "approx_num_players": 64,
+    "first_seen_unix_sec": 1752908927,
+    "last_seen_unix_sec": 1752908986,
+    "completed": false
+  },
+  {
+    "game_id": "LmVB9B55",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Europe Classic",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752908896,
+    "last_seen_unix_sec": 1752908922,
+    "completed": false
+  },
+  {
+    "game_id": "vqrqNfmY",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Australia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752908853,
+    "last_seen_unix_sec": 1752908884,
+    "completed": false
+  },
+  {
+    "game_id": "3RpFBSg9",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Black Sea",
+    "approx_num_players": 36,
+    "first_seen_unix_sec": 1752908774,
+    "last_seen_unix_sec": 1752908789,
+    "completed": false
+  },
+  {
+    "game_id": "1mR5fY8z",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "North America",
+    "approx_num_players": 59,
+    "first_seen_unix_sec": 1752908651,
+    "last_seen_unix_sec": 1752908710,
+    "completed": false
+  },
+  {
+    "game_id": "1LqSUNVp",
+    "teams": null,
+    "max_players": 60,
+    "game_map": "Asia",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752908605,
+    "last_seen_unix_sec": 1752908636,
+    "completed": false
+  },
+  {
+    "game_id": "uIotxifn",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "Falkland Islands",
+    "approx_num_players": 34,
+    "first_seen_unix_sec": 1752908487,
+    "last_seen_unix_sec": 1752908533,
+    "completed": false
+  },
+  {
+    "game_id": "koArgbAM",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Between Two Seas",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908445,
+    "last_seen_unix_sec": 1752908476,
+    "completed": false
+  },
+  {
+    "game_id": "Tn8uCV8o",
+    "teams": 2,
+    "max_players": 40,
+    "game_map": "Black Sea",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908421,
+    "last_seen_unix_sec": 1752908436,
+    "completed": false
+  },
+  {
+    "game_id": "9q1ZYVbt",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Iceland",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752908379,
+    "last_seen_unix_sec": 1752908416,
+    "completed": false
+  },
+  {
+    "game_id": "pIZ29xkU",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Halkidiki",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908336,
+    "last_seen_unix_sec": 1752908375,
+    "completed": false
+  },
+  {
+    "game_id": "0LLtn5qX",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "World",
+    "approx_num_players": 56,
+    "first_seen_unix_sec": 1752908216,
+    "last_seen_unix_sec": 1752908272,
+    "completed": false
+  },
+  {
+    "game_id": "xMgiyGBf",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Baikal",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908191,
+    "last_seen_unix_sec": 1752908206,
+    "completed": false
+  },
+  {
+    "game_id": "OkiYDI3R",
+    "teams": 4,
+    "max_players": 40,
+    "game_map": "Between Two Seas",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908157,
+    "last_seen_unix_sec": 1752908184,
+    "completed": false
+  },
+  {
+    "game_id": "nkXmvchj",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Pangaea",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908101,
+    "last_seen_unix_sec": 1752908154,
+    "completed": false
+  },
+  {
+    "game_id": "XaQSO5Oc",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Black Sea",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752908053,
+    "last_seen_unix_sec": 1752908098,
+    "completed": false
+  },
+  {
+    "game_id": "THP6q4JQ",
+    "teams": 3,
+    "max_players": 48,
+    "game_map": "Iceland",
+    "approx_num_players": 48,
+    "first_seen_unix_sec": 1752908031,
+    "last_seen_unix_sec": 1752908050,
+    "completed": true
+  },
+  {
+    "game_id": "YfHJZido",
+    "teams": null,
+    "max_players": 100,
+    "game_map": "Africa",
+    "approx_num_players": 46,
+    "first_seen_unix_sec": 1752907969,
+    "last_seen_unix_sec": 1752908028,
+    "completed": true
+  },
+  {
+    "game_id": "VsbSdH26",
+    "teams": null,
+    "max_players": 150,
+    "game_map": "World",
+    "approx_num_players": 150,
+    "first_seen_unix_sec": 1752907926,
+    "last_seen_unix_sec": 1752907956,
+    "completed": true
+  },
+  {
+    "game_id": "mdpx7Mg6",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "East Asia",
+    "approx_num_players": 25,
+    "first_seen_unix_sec": 1752907832,
+    "last_seen_unix_sec": 1752907861,
+    "completed": true
+  },
+  {
+    "game_id": "foWX7xIT",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Mena",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752907813,
+    "last_seen_unix_sec": 1752907828,
+    "completed": true
+  },
+  {
+    "game_id": "QeEt0SuP",
+    "teams": 7,
+    "max_players": 42,
+    "game_map": "Faroe Islands",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752907759,
+    "last_seen_unix_sec": 1752907805,
+    "completed": true
+  },
+  {
+    "game_id": "nqPUuIF0",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Italia",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752907725,
+    "last_seen_unix_sec": 1752907756,
+    "completed": false
+  },
+  {
+    "game_id": "uHFThxhY",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Strait of Gibraltar",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752907691,
+    "last_seen_unix_sec": 1752907721,
+    "completed": true
+  },
+  {
+    "game_id": "075WcrLd",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "South America",
+    "approx_num_players": 33,
+    "first_seen_unix_sec": 1752907571,
+    "last_seen_unix_sec": 1752907616,
+    "completed": false
+  },
+  {
+    "game_id": "0Xd5TrYh",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Gateway to the Atlantic",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752907543,
+    "last_seen_unix_sec": 1752907558,
+    "completed": true
+  },
+  {
+    "game_id": "0HhaWGrf",
+    "teams": 5,
+    "max_players": 100,
+    "game_map": "Africa",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752907481,
+    "last_seen_unix_sec": 1752907540,
+    "completed": true
+  },
+  {
+    "game_id": "0EkF7Irp",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Faroe Islands",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752907421,
+    "last_seen_unix_sec": 1752907478,
+    "completed": true
+  },
+  {
+    "game_id": "2pPSOh6n",
+    "teams": null,
+    "max_players": 70,
+    "game_map": "South America",
+    "approx_num_players": 70,
+    "first_seen_unix_sec": 1752907385,
+    "last_seen_unix_sec": 1752907416,
+    "completed": true
+  },
+  {
+    "game_id": "EJh0W4wX",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "South America",
+    "approx_num_players": 39,
+    "first_seen_unix_sec": 1752907278,
+    "last_seen_unix_sec": 1752907322,
+    "completed": false
+  },
+  {
+    "game_id": "3O6OdKhM",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Asia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752907230,
+    "last_seen_unix_sec": 1752907274,
+    "completed": true
+  },
+  {
+    "game_id": "JiKcAKXy",
+    "teams": 7,
+    "max_players": 147,
+    "game_map": "World",
+    "approx_num_players": 147,
+    "first_seen_unix_sec": 1752907172,
+    "last_seen_unix_sec": 1752907218,
+    "completed": true
+  },
+  {
+    "game_id": "ZtG2Myel",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Iceland",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752907128,
+    "last_seen_unix_sec": 1752907169,
+    "completed": true
+  },
+  {
+    "game_id": "HZokQEs3",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Halkidiki",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752907109,
+    "last_seen_unix_sec": 1752907124,
+    "completed": true
+  },
+  {
+    "game_id": "JKdbNL1r",
+    "teams": 3,
+    "max_players": 75,
+    "game_map": "North America",
+    "approx_num_players": 75,
+    "first_seen_unix_sec": 1752907051,
+    "last_seen_unix_sec": 1752907096,
+    "completed": true
+  },
+  {
+    "game_id": "kMzDCKib",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Falkland Islands",
+    "approx_num_players": 46,
+    "first_seen_unix_sec": 1752906989,
+    "last_seen_unix_sec": 1752907047,
+    "completed": false
+  },
+  {
+    "game_id": "hKz1PZmh",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Pangaea",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752906952,
+    "last_seen_unix_sec": 1752906983,
+    "completed": true
+  },
+  {
+    "game_id": "Nclu6i2P",
+    "teams": 6,
+    "max_players": 42,
+    "game_map": "Faroe Islands",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752906923,
+    "last_seen_unix_sec": 1752906938,
+    "completed": true
+  },
+  {
+    "game_id": "LfUGKQg0",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "World",
+    "approx_num_players": 80,
+    "first_seen_unix_sec": 1752906865,
+    "last_seen_unix_sec": 1752906910,
+    "completed": true
+  },
+  {
+    "game_id": "eb2oZuMN",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Europe Classic",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752906819,
+    "last_seen_unix_sec": 1752906861,
+    "completed": true
+  },
+  {
+    "game_id": "N1071ZEE",
+    "teams": 5,
+    "max_players": 50,
+    "game_map": "East Asia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752906773,
+    "last_seen_unix_sec": 1752906816,
+    "completed": true
+  },
+  {
+    "game_id": "lR9tPcQI",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Italia",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752906723,
+    "last_seen_unix_sec": 1752906769,
+    "completed": true
+  },
+  {
+    "game_id": "N8N7moYp",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Falkland Islands",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752906675,
+    "last_seen_unix_sec": 1752906720,
+    "completed": false
+  },
+  {
+    "game_id": "FJR9t3gq",
+    "teams": 2,
+    "max_players": 60,
+    "game_map": "Gateway to the Atlantic",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906620,
+    "last_seen_unix_sec": 1752906671,
+    "completed": true
+  },
+  {
+    "game_id": "FlY0SmHk",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Pangaea",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752906573,
+    "last_seen_unix_sec": 1752906617,
+    "completed": true
+  },
+  {
+    "game_id": "zfWqttP0",
+    "teams": null,
+    "max_players": 150,
+    "game_map": "World",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906513,
+    "last_seen_unix_sec": 1752906570,
+    "completed": true
+  },
+  {
+    "game_id": "XYI1OJXV",
+    "teams": 4,
+    "max_players": 60,
+    "game_map": "Baikal",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906472,
+    "last_seen_unix_sec": 1752906502,
+    "completed": true
+  },
+  {
+    "game_id": "6VxJOeDR",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Europe Classic",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752906441,
+    "last_seen_unix_sec": 1752906457,
+    "completed": true
+  },
+  {
+    "game_id": "qQhonFRk",
+    "teams": null,
+    "max_players": 60,
+    "game_map": "North America",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906399,
+    "last_seen_unix_sec": 1752906438,
+    "completed": true
+  },
+  {
+    "game_id": "yZkJDlQa",
+    "teams": 7,
+    "max_players": 70,
+    "game_map": "Falkland Islands",
+    "approx_num_players": 70,
+    "first_seen_unix_sec": 1752906341,
+    "last_seen_unix_sec": 1752906387,
+    "completed": true
+  },
+  {
+    "game_id": "vyTOC2VS",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Faroe Islands",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752906292,
+    "last_seen_unix_sec": 1752906338,
+    "completed": true
+  },
+  {
+    "game_id": "Wiou4bss",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Deglaciated Antarctica",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752906259,
+    "last_seen_unix_sec": 1752906288,
+    "completed": true
+  },
+  {
+    "game_id": "LIiBx8nZ",
+    "teams": 7,
+    "max_players": 119,
+    "game_map": "World",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906198,
+    "last_seen_unix_sec": 1752906256,
+    "completed": true
+  },
+  {
+    "game_id": "laVWCCA9",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Baikal",
+    "approx_num_players": 49,
+    "first_seen_unix_sec": 1752906141,
+    "last_seen_unix_sec": 1752906195,
+    "completed": true
+  },
+  {
+    "game_id": "uZ5nzyGt",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Britannia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752906095,
+    "last_seen_unix_sec": 1752906125,
+    "completed": true
+  },
+  {
+    "game_id": "g87cmBdj",
+    "teams": 4,
+    "max_players": 60,
+    "game_map": "Mena",
+    "approx_num_players": 60,
+    "first_seen_unix_sec": 1752906055,
+    "last_seen_unix_sec": 1752906086,
+    "completed": true
+  },
+  {
+    "game_id": "kLgkP7cH",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "Africa",
+    "approx_num_players": 39,
+    "first_seen_unix_sec": 1752905996,
+    "last_seen_unix_sec": 1752906052,
+    "completed": true
+  },
+  {
+    "game_id": "0wsIaICp",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Faroe Islands",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752905937,
+    "last_seen_unix_sec": 1752905992,
+    "completed": true
+  },
+  {
+    "game_id": "Yg853pHe",
+    "teams": 7,
+    "max_players": 35,
+    "game_map": "Black Sea",
+    "approx_num_players": 35,
+    "first_seen_unix_sec": 1752905910,
+    "last_seen_unix_sec": 1752905926,
+    "completed": true
+  },
+  {
+    "game_id": "I43ccF91",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Mars",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752905856,
+    "last_seen_unix_sec": 1752905902,
+    "completed": true
+  },
+  {
+    "game_id": "gVWQiF4S",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "World",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752905794,
+    "last_seen_unix_sec": 1752905852,
+    "completed": true
+  },
+  {
+    "game_id": "18LxErnx",
+    "teams": 4,
+    "max_players": 44,
+    "game_map": "Deglaciated Antarctica",
+    "approx_num_players": 44,
+    "first_seen_unix_sec": 1752905740,
+    "last_seen_unix_sec": 1752905791,
+    "completed": true
+  },
+  {
+    "game_id": "uomsJ1i1",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "Gateway to the Atlantic",
+    "approx_num_players": 44,
+    "first_seen_unix_sec": 1752905679,
+    "last_seen_unix_sec": 1752905737,
+    "completed": true
+  },
+  {
+    "game_id": "P6hA4Dyn",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Between Two Seas",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752905643,
+    "last_seen_unix_sec": 1752905676,
+    "completed": true
+  },
+  {
+    "game_id": "UsnLZipU",
+    "teams": 2,
+    "max_players": 74,
+    "game_map": "Africa",
+    "approx_num_players": 74,
+    "first_seen_unix_sec": 1752905586,
+    "last_seen_unix_sec": 1752905632,
+    "completed": true
+  },
+  {
+    "game_id": "El0gZceL",
+    "teams": null,
+    "max_players": 60,
+    "game_map": "Mena",
+    "approx_num_players": 41,
+    "first_seen_unix_sec": 1752905523,
+    "last_seen_unix_sec": 1752905582,
+    "completed": true
+  },
+  {
+    "game_id": "boBBGm7M",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "East Asia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752905474,
+    "last_seen_unix_sec": 1752905520,
+    "completed": true
+  },
+  {
+    "game_id": "RjV5OmFI",
+    "teams": 5,
+    "max_players": 45,
+    "game_map": "Europe",
+    "approx_num_players": 45,
+    "first_seen_unix_sec": 1752905437,
+    "last_seen_unix_sec": 1752905471,
+    "completed": true
+  },
+  {
+    "game_id": "40WI1XoX",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Strait of Gibraltar",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752905377,
+    "last_seen_unix_sec": 1752905422,
+    "completed": true
+  },
+  {
+    "game_id": "UC4JNJOy",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Australia",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752905358,
+    "last_seen_unix_sec": 1752905373,
+    "completed": true
+  },
+  {
+    "game_id": "DLcWdaI7",
+    "teams": 5,
+    "max_players": 150,
+    "game_map": "World",
+    "approx_num_players": 70,
+    "first_seen_unix_sec": 1752905296,
+    "last_seen_unix_sec": 1752905354,
+    "completed": true
+  },
+  {
+    "game_id": "9agEnifl",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Halkidiki",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752905239,
+    "last_seen_unix_sec": 1752905285,
+    "completed": true
+  },
+  {
+    "game_id": "c24pqqQO",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Gateway to the Atlantic",
+    "approx_num_players": 40,
+    "first_seen_unix_sec": 1752905206,
+    "last_seen_unix_sec": 1752905234,
+    "completed": true
+  },
+  {
+    "game_id": "3po5BIbj",
+    "teams": 6,
+    "max_players": 42,
+    "game_map": "Italia",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752905154,
+    "last_seen_unix_sec": 1752905203,
+    "completed": true
+  },
+  {
+    "game_id": "i6CBAj3N",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "East Asia",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752905119,
+    "last_seen_unix_sec": 1752905151,
+    "completed": true
+  },
+  {
+    "game_id": "u8sQ7HkU",
+    "teams": null,
+    "max_players": 100,
+    "game_map": "Africa",
+    "approx_num_players": 55,
+    "first_seen_unix_sec": 1752905060,
+    "last_seen_unix_sec": 1752905116,
+    "completed": true
+  },
+  {
+    "game_id": "qUBtKiIH",
+    "teams": 6,
+    "max_players": 42,
+    "game_map": "Mars",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752905005,
+    "last_seen_unix_sec": 1752905054,
+    "completed": true
+  },
+  {
+    "game_id": "IkPUs6xu",
+    "teams": null,
+    "max_players": 150,
+    "game_map": "World",
+    "approx_num_players": 150,
+    "first_seen_unix_sec": 1752904947,
+    "last_seen_unix_sec": 1752904993,
+    "completed": true
+  },
+  {
+    "game_id": "ElsPAhtq",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Baikal",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752904907,
+    "last_seen_unix_sec": 1752904944,
+    "completed": true
+  },
+  {
+    "game_id": "5kdQy6Jj",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Europe",
+    "approx_num_players": 29,
+    "first_seen_unix_sec": 1752904814,
+    "last_seen_unix_sec": 1752904843,
+    "completed": true
+  },
+  {
+    "game_id": "TSic80fO",
+    "teams": null,
+    "max_players": 30,
+    "game_map": "Mena",
+    "approx_num_players": 30,
+    "first_seen_unix_sec": 1752904777,
+    "last_seen_unix_sec": 1752904811,
+    "completed": true
+  },
+  {
+    "game_id": "vt0p4hll",
+    "teams": 2,
+    "max_players": 44,
+    "game_map": "Halkidiki",
+    "approx_num_players": 44,
+    "first_seen_unix_sec": 1752904743,
+    "last_seen_unix_sec": 1752904773,
+    "completed": true
+  },
+  {
+    "game_id": "bQkrDGdG",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Australia",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752904683,
+    "last_seen_unix_sec": 1752904729,
+    "completed": true
+  },
+  {
+    "game_id": "wbv8ULKA",
+    "teams": null,
+    "max_players": 150,
+    "game_map": "World",
+    "approx_num_players": 150,
+    "first_seen_unix_sec": 1752904624,
+    "last_seen_unix_sec": 1752904670,
+    "completed": true
+  },
+  {
+    "game_id": "USrfTVoV",
+    "teams": 5,
+    "max_players": 50,
+    "game_map": "Iceland",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752904566,
+    "last_seen_unix_sec": 1752904612,
+    "completed": true
+  },
+  {
+    "game_id": "kbytJD4E",
+    "teams": null,
+    "max_players": 100,
+    "game_map": "Africa",
+    "approx_num_players": 45,
+    "first_seen_unix_sec": 1752904505,
+    "last_seen_unix_sec": 1752904563,
+    "completed": true
+  },
+  {
+    "game_id": "tsIwhO8S",
+    "teams": null,
+    "max_players": 80,
+    "game_map": "Europe",
+    "approx_num_players": 80,
+    "first_seen_unix_sec": 1752904445,
+    "last_seen_unix_sec": 1752904491,
+    "completed": true
+  },
+  {
+    "game_id": "aWry9MU8",
+    "teams": 7,
+    "max_players": 42,
+    "game_map": "Strait of Gibraltar",
+    "approx_num_players": 42,
+    "first_seen_unix_sec": 1752904401,
+    "last_seen_unix_sec": 1752904442,
+    "completed": true
+  },
+  {
+    "game_id": "bDf2Vo1C",
+    "teams": null,
+    "max_players": 60,
+    "game_map": "Asia",
+    "approx_num_players": 56,
+    "first_seen_unix_sec": 1752904341,
+    "last_seen_unix_sec": 1752904398,
+    "completed": true
+  },
+  {
+    "game_id": "5Ov8FaF0",
+    "teams": null,
+    "max_players": 70,
+    "game_map": "South America",
+    "approx_num_players": 52,
+    "first_seen_unix_sec": 1752904280,
+    "last_seen_unix_sec": 1752904338,
+    "completed": true
+  },
+  {
+    "game_id": "HaQQE3za",
+    "teams": 4,
+    "max_players": 48,
+    "game_map": "Australia",
+    "approx_num_players": 48,
+    "first_seen_unix_sec": 1752904241,
+    "last_seen_unix_sec": 1752904275,
+    "completed": true
+  },
+  {
+    "game_id": "UzZJqrJG",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Deglaciated Antarctica",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752904184,
+    "last_seen_unix_sec": 1752904229,
+    "completed": true
+  },
+  {
+    "game_id": "IoTVXBNW",
+    "teams": null,
+    "max_players": 50,
+    "game_map": "Iceland",
+    "approx_num_players": 50,
+    "first_seen_unix_sec": 1752904137,
+    "last_seen_unix_sec": 1752904180,
+    "completed": true
+  },
+  {
+    "game_id": "Rnr784jX",
+    "teams": null,
+    "max_players": 40,
+    "game_map": "Between Two Seas",
+    "approx_num_players": 36,
+    "first_seen_unix_sec": 1752904035,
+    "last_seen_unix_sec": 1752904073,
+    "completed": true
+  }
+]

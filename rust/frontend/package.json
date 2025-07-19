@@ -1,0 +1,39 @@
+{
+  "name": "openfront-frontend",
+  "version": "0.1.0",
+  "description": "OpenFronter frontend using Vite and Bun",
+  "type": "module",
+  "main": "src/main.tsx",
+  "module": "src/main.tsx",
+  "files": [
+    "src/**/*",
+    "extra_assets/**/*",
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "serve": "vite preview",
+    "generate-nix": "bun2nix > bun.nix"
+  },
+  "keywords": ["frontend", "vite", "bun", "react"],
+  "author": "OpenFronter Team",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "lodash": "^4.17.21",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0",
+    "typescript": "^5.4.3",
+    "vite": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0"
+  }
+}

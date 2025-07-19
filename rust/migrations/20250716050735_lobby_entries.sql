@@ -10,7 +10,7 @@
 
 CREATE TABLE IF NOT EXISTS lobbies (
     game_id CHAR(8) PRIMARY KEY,
-    teams INTEGER,
+    teams INTEGER NOT NULL,
     max_players INTEGER NOT NULL,
     game_map TEXT NOT NULL,
     approx_num_players INTEGER NOT NULL,

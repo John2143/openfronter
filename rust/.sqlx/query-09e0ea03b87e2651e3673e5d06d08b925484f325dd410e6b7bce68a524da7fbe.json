@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO analysis_queue (game_id)\n         VALUES ($1)\n         ON CONFLICT (game_id) DO NOTHING",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Bpchar"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "09e0ea03b87e2651e3673e5d06d08b925484f325dd410e6b7bce68a524da7fbe"
+}

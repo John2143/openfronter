@@ -4,7 +4,7 @@
   "description": "An OpenFront.io match parser and data analytics engine.",
   "main": "src/index.ts",
   "scripts": {
-    "start": "npx tsx src/ListGames.ts",
+    "start": "bun src/ListGames.ts",
     "build": "tsc",
     "build:watch": "tsc --watch"
   },

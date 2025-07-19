@@ -24,7 +24,11 @@ jobs:
           authToken: ${{ secrets.CACHIX_TOKEN }}
 
       - name: Building package
-        run: nix build ./rust#container
+        run: |
+          #nix flake lock ./rust/frontend
+          #nix flake lock ./rust
+          nix build ./rust/frontend#frontend
+          nix build ./rust#container
       - name: Install skopeo
         run: sudo apt-get install -y skopeo
       - name: Push with skopeo
